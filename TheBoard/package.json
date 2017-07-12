@@ -1,9 +1,10 @@
 {
   "name": "the-board",
   "version": "0.0.0",
-  "description": "TheBoard",
+  "description": "TheBoard_Description",
   "main": "server.js",
   "author": {
-    "name": "user"
+    "name": "Lior Matsliah",
+    "email": "liormatsliah1985@gmail.com"
   }
 }
