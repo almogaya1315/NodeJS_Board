@@ -1,0 +1,24 @@
+﻿*** from 'package.json' ***
+
+"devDependencies": {
+		// should be installed globally, to prevent repeated installment,
+		// with the following cmd line: 'npm install bower -g'.
+    "bower": "^1.8.0",
+		// with the following cmd line: 'npm install grunt -g'.
+	"grunt": "^1.0.1",
+		// but the GruntJS plugin 'nodemon' is installed in dev.
+		// nodemon restarts node every time a file is changed, 
+		// and updates the browser instead of the server being refreshed.
+	"grunt-nodemon": "^0.4.2"
+  }
+
+  // *** 
+  // when typing 'grunt' in cmd, the log of the update
+  // that nodemon does is displayed, every time a js file changes. 
+  // other files like css, json etc. are not cached in the browser,
+  // so no need to define them in gruntfile.js.
+  // to stop the nodemon from running, press 'ctrl+c'. 
+  // that way, the grunt won't perform the auto update,
+  // and the server will send data each refresh.
+  // usually usefull for dev without debugger.
+  // because when debugger is neccesery, the server side refresh is needed.
