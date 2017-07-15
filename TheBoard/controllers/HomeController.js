@@ -11,9 +11,11 @@
             data.getNotesCategories(function (err, results) {
                 res.render("vash/index", { title: "Express + Vash", error: err, categories: results });
             });
-
-            
         });
 
+        app.get("/api/users", function (req, res) {
+            res.set("Content-Type", "application/json");
+            res.send({ name: "Lior", surname: "Matsliah" });
+        });
     };
 })(module.exports);

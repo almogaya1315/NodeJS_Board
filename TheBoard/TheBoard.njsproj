@@ -36,6 +36,8 @@
     <Compile Include="data\seedData.js" />
     <Compile Include="server.js" />
     <Content Include="package.json" />
+    <Content Include=".bowerrc" />
+    <Content Include="public\css\site.less" />
     <Content Include="README.md" />
     <Content Include="views\ejs\index.ejs" />
     <Content Include="views\ejs\layout.ejs" />
@@ -47,6 +49,8 @@
   <ItemGroup>
     <Folder Include="controllers\" />
     <Folder Include="data\" />
+    <Folder Include="public\" />
+    <Folder Include="public\css\" />
     <Folder Include="views\" />
     <Folder Include="views\jade\" />
     <Folder Include="views\ejs\" />
