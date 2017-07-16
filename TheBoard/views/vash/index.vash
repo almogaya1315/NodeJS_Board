@@ -2,7 +2,7 @@
 	@html.block("body", function(model){
 		
 		@if (model.error){
-			<p class="text-error">@Error accured: @model.error</p>
+			<p class="text-error">Error accured: @model.error</p>
 		}
 
 		<div class="row">
